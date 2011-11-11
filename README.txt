@@ -1,4 +1,5 @@
---INFO--
+ABOUT FRETS
+-----------
 
 Frets is a lightweight library for creating, manipulating and printing guitar chord diagrams.
 
@@ -8,7 +9,8 @@ The Tuning is shown only when chords are printed.
 Similarly, you can create chords by optionally specifying the individual strings played.
 Chords also support different ChordFlags, such as PalmMute. Special strings, such as HammerDown and SlideUp can also be provided, by using the SpecialStrings class.
 
+The FretMap class can also be used to print chords. 
+Phase printing is also supported, and phrase is represented by a Phrase object. A phrase is essentially just a list of chords.
+
 The FretControl user control can be used to visually create chords.
-
-
 
